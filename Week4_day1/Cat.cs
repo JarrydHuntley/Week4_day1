@@ -14,11 +14,13 @@ namespace Week4_day1
 
         private bool declawed;
 
-        public Cat(string breed, string furLength, bool declawed): base(4,3,3)
+        public Cat(string breed, string furLength, bool declawed, string color): base(4, 3, 3, color)
         {
             this.breed = breed;
             this.furLength = furLength;
             this.declawed = declawed;
+            this.color = color;
+            isGoodToEat = false;
         }
 
     }
