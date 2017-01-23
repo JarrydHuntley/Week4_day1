@@ -52,8 +52,12 @@ namespace Week4_day1
             Console.WriteLine("This animal has " + legs + " legs");
             Console.WriteLine("It's size is  " + size);
             Console.WriteLine("It weighs " + weight);
-            Console.WriteLine("And it's color is " + color + "\n");
+            Console.WriteLine("And it's color is " + color );
         }
 
+        protected void WhoAmI()
+        {
+            Console.WriteLine("I am an animal");
+        }
     }
 }

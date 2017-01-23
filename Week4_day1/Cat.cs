@@ -23,5 +23,10 @@ namespace Week4_day1
             isGoodToEat = false;
         }
 
+        public void Speak()
+        {
+            Console.WriteLine("Meow!");
+        }
+
     }
 }
