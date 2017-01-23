@@ -15,6 +15,9 @@ namespace Week4_day1
 
             animal1.PrintAnimalInfo();
             animal2.PrintAnimalInfo();
+
+            Cat cat1 = new Cat("Grumpy", "Short", false);
+            cat1.PrintAnimalInfo();
         }
     }
 }
