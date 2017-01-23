@@ -18,6 +18,9 @@ namespace Week4_day1
 
             Cat cat1 = new Cat("Grumpy", "Short", false, "Grey");
             cat1.PrintAnimalInfo();
+
+            Fish fish1 = new Fish(5, true, true, "salt");
+            fish1.PrintAnimalInfo();
         }
     }
 }
