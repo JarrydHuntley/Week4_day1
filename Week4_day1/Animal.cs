@@ -16,6 +16,10 @@ namespace Week4_day1
 
         private bool isGoodToEat;
 
+        public Animal()
+        {
+        }
+
         public Animal(int legs, string color)
         {
             this.legs = legs;
