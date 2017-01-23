@@ -15,7 +15,7 @@ namespace Week4_day1
         private string color;
 
         private bool isGoodToEat;
-        
+
         public Animal(int legs, string color)
         {
             this.legs = legs;
@@ -35,6 +35,14 @@ namespace Week4_day1
             this.size = size;
             this.weight = weight;
             this.color = color;
+        }
+
+        public void PrintAnimalInfo()
+        {
+            Console.WriteLine("This animal has: " + legs + "# of legs");
+            Console.WriteLine("It's size is: " + size);
+            Console.WriteLine("It weighs " + weight);
+            Console.WriteLine("And is the color " + color);
         }
 
     }
