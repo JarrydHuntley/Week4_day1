@@ -23,11 +23,6 @@ namespace Week4_day1
             isGoodToEat = false;
         }
 
-        public void Speak()
-        {
-            Console.WriteLine("Meow!");
-        }
-
         public override void PrintAnimalInfo()
         {
             Console.WriteLine("I am a cat.");
@@ -36,6 +31,13 @@ namespace Week4_day1
             Console.WriteLine("Fur length is: " + furLength);
             Console.WriteLine("Declawed: " + declawed);
         }
+
+        public void Speak()
+        {
+            Console.WriteLine("Meow!");
+        }
+
+
 
     }
 }

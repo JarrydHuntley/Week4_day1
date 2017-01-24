@@ -28,7 +28,7 @@ namespace Week4_day1
             base.PrintAnimalInfo();
             Console.WriteLine("I have " + fins + " fins.");
             Console.WriteLine("Do I have teeth? " + teeth);
-            Console.WriteLine("I live in " + waterType + " water.");
+            Console.WriteLine("I live in "+ waterType + " water.");
         }
 
         public void Swim()
